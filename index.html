@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Rein">
+  <meta property="og:title" content="Rein"/>
+  <meta property="og:description" content="[CVPR 2024] Stronger, Fewer, & Superior: Harnessing Vision Foundation Models for Domain Generalized Semantic Segmentation"/>
+  <meta property="og:url" content="zxwei.site/rein"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="../images/rein.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="Rein">
+  <meta name="twitter:description" content="[CVPR 2024] Stronger, Fewer, & Superior: Harnessing Vision Foundation Models for Domain Generalized Semantic Segmentation">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="../images/rein.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Rein">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>[CVPR 2024] Rein</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title" style="font-family: Helvetica, sans-serif;">Stronger, Fewer, & Superior:</h1>
+            <h3 class="title is-1 publication-title" style="font-family: Helvetica, sans-serif;">Harnessing Vision Foundation Models for Domain Generalized Semantic Segmentation</h3>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://zxwei.site" target="_blank">Zhixiang Wei</a><sup>*</sup>,</span>
+                <span class="author-block">
+                  <a href="https://lin-chen.site" target="_blank">Lin Chen</a><sup>*</sup>,</span>
+                  <span class="author-block">
+                    Yi Jin*, Xiaoxiao Ma, Tianle Liu, Pengyang Ling, Ben Wang, Huaian Chen, Jinjin Zheng
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <div class="author-block"><sup>1&nbsp;</sup>University of Science and Technology of China</div>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <div class="author-block"><sup>2&nbsp;</sup>Shanghai AI Laboratory</div><br>
+                    <span class="author-block"><br>CVPR 2024</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2312.04265.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <!-- <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/w1oves/Rein" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2312.04265" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="https://github.com/w1oves/Rein/releases/download/Videos/all.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Trained on Cityscapes, <b>Rein</b> generalizes to <b>unseen</b> driving scenes and cities:
+        <br>Nighttime Shanghai, Foggy Countryside, and Rainy Hollywood.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">              
+          <p>
+            In this paper, we first assess and harness various Vision Foundation Models (VFMs) in the context of Domain Generalized Semantic Segmentation (DGSS). Driven by the motivation that Leveraging Stronger pre-trained models and Fewer trainable parameters for Superior generalizability, we introduce a robust fine-tuning approach, namely Rein, to parameter-efficiently harness VFMs for DGSS. Built upon a set of trainable tokens, each linked to distinct instances, Rein precisely refines and forwards the feature maps from each layer to the next layer within the backbone. This process produces diverse refinements for different categories within a single image. With fewer trainable parameters, Rein efficiently fine-tunes VFMs for DGSS tasks, surprisingly surpassing full parameter fine-tuning. Extensive experiments across various settings demonstrate that Rein significantly outperforms state-of-the-art methods. Remarkably, with just an extra 1% of trainable parameters within the frozen backbone, Rein achieves a mIoU of 78.4% on the Cityscapes, without accessing any real urban-scene datasets.
+          </p>
+          <a href="https://paperswithcode.com/sota/domain-adaptation-on-cityscapes-to-acdc?p=stronger-fewer-superior-harnessing-vision">
+            <img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/stronger-fewer-superior-harnessing-vision/domain-adaptation-on-cityscapes-to-acdc" alt="SOTA Domain Adaptation on Cityscapes to ACDC">
+          </a>
+          <a href="https://paperswithcode.com/sota/domain-generalization-on-gta-to-avg?p=stronger-fewer-superior-harnessing-vision">
+            <img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/stronger-fewer-superior-harnessing-vision/domain-generalization-on-gta-to-avg" alt="SOTA Domain Generalization on GTA to AVG">
+          </a>
+          <a href="https://paperswithcode.com/sota/domain-generalization-on-gta5-to-cityscapes?p=stronger-fewer-superior-harnessing-vision">
+            <img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/stronger-fewer-superior-harnessing-vision/domain-generalization-on-gta5-to-cityscapes" alt="SOTA Domain Generalization on GTA5 to Cityscapes">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/8fd046f2-e41d0000.jpg" alt="night"/>
+        <h2 class="subtitle has-text-centered">
+          Inference on unseen <b>night</b> image.
+        </h2>
+       </div>
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/GOPR0477_frame_000949_rgb_anon.png" alt="foggy"/>
+        <h2 class="subtitle has-text-centered">
+          Inference on unseen <b>foggy</b> image.
+        </h2>
+       </div>
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/GOPR0572_frame_000501_rgb_anon.png" alt="rainy"/>
+        <h2 class="subtitle has-text-centered">
+         Inference on unseen <b>rainy</b> image.
+       </h2>
+       </div>
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/GOPR0494_frame_000134_rgb_anon.png" alt="snowy"/>
+        <h2 class="subtitle has-text-centered">
+          Inference on unseen <b>snowy</b> image.
+        </h2>
+       </div>
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/nightbdd.jpg" alt="night"/>
+        <h2 class="subtitle has-text-centered">
+          Inference on unseen <b>night</b> image.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/GOPR0478_frame_000526_rgb_anon.png" alt="foggy"/>
+        <h2 class="subtitle has-text-centered">
+          Inference on unseen <b>foggy</b> image.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/GOPR0572_frame_000995_rgb_anon.png" alt="rainy"/>
+        <h2 class="subtitle has-text-centered">
+         Inference on unseen <b>rainy</b> image.
+       </h2>
+      </div>
+      <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/GOPR0494_frame_000284_rgb_anon.png" alt="snowy"/>
+      <h2 class="subtitle has-text-centered">
+        Inference on unseen <b>snowy</b> image.
+      </h2>
+      </div>
+      <div class="item">
+      <!-- Your image here -->
+        <img src="static/images/GOPR0594_frame_000193_rgb_anon.png" alt="night"/>
+        <h2 class="subtitle has-text-centered">
+          Inference on unseen <b>night</b> image.
+        </h2>
+      </div>
+  </div>
+ </div>
+</div>
+</section>
+<!-- End image carousel -->
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Overview</h2>
+      <img  src="static/images/rein.png" width="100%" height="550">
+      </img>
+      </div>
+    </div>
+  </section>
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Framework</h2>
+      <img  src="static/images/framework.png" width="100%" height="550">
+      </img>
+      </div>
+    </div>
+  </section>
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <img  src="static/images/poster.png" width="100%" height="550">
+          </img>
+        
+      </div>
+    </div>
+  </section>
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@InProceedings{Wei_2024_CVPR,
+    author    = {Wei, Zhixiang and Chen, Lin and Jin, Yi and Ma, Xiaoxiao and Liu, Tianle and Ling, Pengyang and Wang, Ben and Chen, Huaian and Zheng, Jinjin},
+    title     = {Stronger Fewer \& Superior: Harnessing Vision Foundation Models for Domain Generalized Semantic Segmentation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {28619-28630}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
