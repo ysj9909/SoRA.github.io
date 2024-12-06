@@ -107,6 +107,16 @@ body {
     height: 100%;
 }
 
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.video-item {
+  width: 100%;
+}
+
 .publication-body img {
 }
 
