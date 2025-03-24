@@ -91,7 +91,7 @@
 
               <!-- Github link -->
               <span class="link-block">
-                <a href="https://github.com/ysj9909/DG-SoRA" target="_blank"
+                <a href="https://github.com/ysj9909/SoMA" target="_blank"
                 class="external-link button is-normal is-rounded is-dark">
                 <span class="icon">
                   <i class="fab fa-github"></i>
@@ -122,7 +122,7 @@
       <div class="video-list">
         <!-- First Video -->
         <p class="content has-text-centered is-size-5 mt-5">
-        SoRA, <b>trained solely on synthetic datasets</b>, demonstrates robust prediction capabilities even in highly challenging unseen driving scenarios.
+        SoMA, <b>trained solely on synthetic datasets</b>, demonstrates robust prediction capabilities even in highly challenging unseen driving scenarios.
       </p>
         <div class="video-item">
           <video muted controls loop preload="auto" width="100%">
@@ -196,7 +196,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">              
           <p>
-            Domain generalization (DG) aims to adapt a model using one or multiple source domains to ensure robust performance in unseen target domains. Recently, Parameter-Efficient Fine-Tuning (PEFT) of foundation models has shown promising results in the context of DG problem. Nevertheless, existing PEFT methods still struggle to strike a balance between preserving generalizable components of the pre-trained model and learning task-specific features. To gain insights into the distribution of generalizable components, we begin by analyzing the pre-trained weights  through the lens of singular value decomposition. Building on these insights, we introduce Singular Value Decomposed Low-Rank Adaptation (SoRA), an approach that selectively tunes minor singular components while keeping the residual parts frozen. SoRA effectively retains the generalization ability of the pre-trained model while efficiently acquiring task-specific skills. Furthermore, we freeze domain-generalizable blocks and employ an annealing weight decay strategy, thereby achieving an optimal balance in the delicate trade-off between generalizability and discriminability.  SoRA attains state-of-the-art results on multiple benchmarks that span both domain generalized semantic segmentation to domain generalized object detection. In addition, our methods introduce no additional inference overhead or regularization loss, maintain compatibility with any backbone or head, and are designed to be versatile, allowing easy integration into a wide range of tasks.
+            Domain generalization (DG) aims to adapt a model using one or multiple source domains to ensure robust performance in unseen target domains. Recently, Parameter-Efficient Fine-Tuning (PEFT) of foundation models has shown promising results in the context of DG problem. Nevertheless, existing PEFT methods still struggle to strike a balance between preserving generalizable components of the pre-trained model and learning task-specific features. To gain insights into the distribution of generalizable components, we begin by analyzing the pre-trained weights  through the lens of singular value decomposition. Building on these insights, we introduce Singular Value Decomposed Minor Components Adaptation (SoMA), an approach that selectively tunes minor singular components while keeping the residual parts frozen. SoMA effectively retains the generalization ability of the pre-trained model while efficiently acquiring task-specific skills. Furthermore, we freeze domain-generalizable blocks and employ an annealing weight decay strategy, thereby achieving an optimal balance in the delicate trade-off between generalizability and discriminability.  SoMA attains state-of-the-art results on multiple benchmarks that span both domain generalized semantic segmentation to domain generalized object detection. In addition, our methods introduce no additional inference overhead or regularization loss, maintain compatibility with any backbone or head, and are designed to be versatile, allowing easy integration into a wide range of tasks.
           </p>
         </div>
       </div>
@@ -218,7 +218,7 @@
       <p class="title is-3 mt-5 has-text-centered"> Domain Generalized Subject Personalization </p>
       <img  src="static/images/supp_sdg1.png" width="100%" height="550"> </img>
       <h2 class="subtitle has-text-centered">
-        <b>Multiple subject-consistent synthesis results with prompts describing various domains.</b> SoRA effectively preserves SDXL’s ability to generate images across diverse domains while learning new visual concepts. As a result, simply using prompts from multiple domains allows us to generate an image set of different domains that share the same subject. </h2>
+        <b>Multiple subject-consistent synthesis results with prompts describing various domains.</b> SoMA effectively preserves SDXL’s ability to generate images across diverse domains while learning new visual concepts. As a result, simply using prompts from multiple domains allows us to generate an image set of different domains that share the same subject. </h2>
       
       <img  src="static/images/supp_sdg2_soma.png" width="100%" height="550"> </img>
         
