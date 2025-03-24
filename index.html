@@ -6,7 +6,7 @@
   <!-- Replace the content tag with appropriate information -->
   <meta name="description" content="SoRA">
   <meta property="og:title" content="SoRA"/>
-  <meta property="og:description" content="SoRA: Singular Value Decomposed Low-Rank Adaptation for Domain Generalizable Representation Learning"/>
+  <meta property="og:description" content="SoMA: Singular Value Decomposed Minor Components Adaptation for Domain Generalizable Representation Learning"/>
   <meta property="og:url" content="https://ysj9909.github.io/SoRA.github.io/"/>
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
   <meta property="og:image" content="../images/teaser.png" />
@@ -15,7 +15,7 @@
 
 
   <meta name="twitter:title" content="SoRA">
-  <meta name="twitter:description" content="SoRA: Singular Value Decomposed Low-Rank Adaptation for Domain Generalizable Representation Learning">
+  <meta name="twitter:description" content="SoMA: Singular Value Decomposed Minor Components Adaptation for Domain Generalizable Representation Learning">
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
   <meta name="twitter:image" content="../images/teaser.png">
   <meta name="twitter:card" content="summary_large_image">
@@ -50,7 +50,7 @@
     <div class="hero-body">
       <div class="container" style="max-width: 100%; text-align: center;">
         <h1 class="title is-1 publication-title" style="font-family: Helvetica, sans-serif; max-width: 100%; margin: 0 auto; display: inline-block; text-align: center;">
-          SoRA: Singular Value Decomposed Low-Rank Adaptation <br>
+          SoMA: Singular Value Decomposed Minor Components Adaptation <br>
           for Domain Generalizable Representation Learning
         </h1>
         <div class="is-size-5 publication-authors" style="margin-top: 30px;">
@@ -62,7 +62,7 @@
 
               <div class="is-size-5 publication-authors" style="margin-top: 20px;">
                 <div class="author-block"></sup>Machine Intelligence Laboratory, University of Seoul, Korea</div><br>
-                <span class="author-block"><br>CVPR 2025</span>
+                <span class="author-block cvpr-highlight"><br>CVPR 2025</span>
               </div>
 
               <div class="column has-text-centered">
@@ -234,8 +234,8 @@
         <p class="card-header-title"> Citation </p>
       </header>
       <div class="card-content is-size-5 has-text-left">
-        <pre><code>@inproceedings{yun2025sora,
-  title={SoRA: Singular Value Decomposed Low-Rank Adaptation for Domain Generalizable Representation Learning},
+        <pre><code>@inproceedings{yun2025soma,
+  title={SoMA: Singular Value Decomposed Minor Components Adaptation for Domain Generalizable Representation Learning},
   author={Yun, Seokju and Chae, Seunghye and Lee, Dongheon and Ro, Youngmin},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2025}
@@ -265,3 +265,18 @@
 
   </body>
   </html>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.cvpr-highlight {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.4em;
+  background: linear-gradient(135deg, #ffffff, #00BFFF, #1E90FF, #0000CD);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+</style>
